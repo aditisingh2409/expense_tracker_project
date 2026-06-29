@@ -1,11 +1,11 @@
-#ek fun create kr rhe h jiska nam add expense hai 
+
 
 def add_expense():
-    #input lwnge ab iska mtlb usr se amoun5 lena hain 
+
     amount = input("enter amount:")
-#categori lena 
+#categor 
     category = input("enter category:")
-#file open krna 
+#file open
     with open("expense.txt" , "a") as file:
         file.write(f"{amount},{category}\n")
 
@@ -14,8 +14,7 @@ def add_expense():
 
 add_expense()
 
-def view_expenses(): #file m jo bhi expense h vo show krta hain
-    #add expense = fun. ko chala5a hain and view wxpwnse dusra fun chala5b hain 
+def view_expenses():  
 
     with open("expense.txt", "r") as file:
 

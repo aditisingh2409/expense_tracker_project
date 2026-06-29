@@ -1,10 +1,5 @@
-133,food
-120,grocery
-12234,shopping
- 89, cafe
-1234,shopping
-250,cafe
-890,cafe
-1900,bday
-45678, makeup
-234,food
+
+98,food
+230,grocery
+230,grocery
+230,food
